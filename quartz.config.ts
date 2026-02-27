@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "알리의 접근성 연구소(Ally's Accessibility Lab)",
+    pageTitle: "알리의 접근성 연구소",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
