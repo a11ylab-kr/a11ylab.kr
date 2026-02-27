@@ -8,7 +8,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "5px" }}>
+      <a href={baseDir} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}>
         <img src="/static/a11ylab-logo.png" alt="알리의 접근성 연구소 로고" style={{ height: "120px", width: "auto" }} />
         <span style={{ fontSize: "0.7em", lineHeight: "1.2", textAlign: "center" }}>{title}</span>
       </a>    
