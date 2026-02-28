@@ -13,6 +13,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
         <span style={{ fontSize: "0.7em", lineHeight: "1.2", textAlign: "center" }}>{title}</span>
       </a>    
     </h2>
+    <a href="https://hits.sh/a11ylab.kr/"><img alt="방문자 카운터" src="https://hits.sh/a11ylab.kr.svg?view=today-total&style=plastic&color=1818f0"/></a>
   )
 }
 
