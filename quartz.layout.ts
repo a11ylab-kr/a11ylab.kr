@@ -44,6 +44,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes({
+      title: "최근 발행 노트", 
+      limit: 5,            
+      showTags: false,     
+    }),
   ],
 }
 
