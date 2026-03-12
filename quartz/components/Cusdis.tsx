@@ -35,6 +35,24 @@ export default (() => {
         });
       }
 
+      function initCusdis() {
+        var thread = document.getElementById('cusdis_thread');
+        if (!thread) return;
+        if (!thread.querySelector('iframe') && window.CUSDIS) {
+          window.CUSDIS.renderTo(thread);
+        }
+        var iframe = thread.querySelector('iframe');
+        if (iframe) {
+          setupIframeResize(iframe);
+        } else {
+          var mo = new MutationObserver(function() {
+            var f = thread.querySelector('iframe');
+            if (f) { mo.disconnect(); setupIframeResize(f); }
+          });
+          mo.observe(thread, { childList: true });
+        }
+      }
+
       var langScript = document.createElement('script');
       langScript.src = 'https://cusdis-sigma-one.vercel.app/js/widget/lang/ko.js';
       langScript.defer = true;
@@ -44,18 +62,8 @@ export default (() => {
         script.async = true;
         script.defer = true;
         script.onload = function() {
-          var thread = document.getElementById('cusdis_thread');
-          if (!thread) return;
-          var existing = thread.querySelector('iframe');
-          if (existing) {
-            setupIframeResize(existing);
-          } else {
-            var mo = new MutationObserver(function() {
-              var iframe = thread.querySelector('iframe');
-              if (iframe) { mo.disconnect(); setupIframeResize(iframe); }
-            });
-            mo.observe(thread, { childList: true });
-          }
+          initCusdis();
+          document.addEventListener('nav', initCusdis);
         };
         document.body.appendChild(script);
       };
