@@ -62,6 +62,8 @@ export default (() => {
       langScript.src = 'https://cusdis-sigma-one.vercel.app/js/widget/lang/ko.js';
       langScript.defer = true;
       langScript.onload = function() {
+        var thread = document.getElementById('cusdis_thread');
+        if (thread) thread.setAttribute('data-theme', getTheme());
         var script = document.createElement('script');
         script.src = 'https://cusdis-sigma-one.vercel.app/js/cusdis.es.js';
         script.async = true;
@@ -73,7 +75,14 @@ export default (() => {
             var thread = document.getElementById('cusdis_thread');
             if (!thread || !window.CUSDIS) return;
             thread.setAttribute('data-theme', e.detail.theme);
+            var existing = thread.querySelector('iframe');
+            if (existing) existing.remove();
             window.CUSDIS.renderTo(thread);
+            var mo = new MutationObserver(function() {
+              var f = thread.querySelector('iframe');
+              if (f) { mo.disconnect(); setupIframeResize(f); }
+            });
+            mo.observe(thread, { childList: true });
           });
         };
         document.body.appendChild(script);
