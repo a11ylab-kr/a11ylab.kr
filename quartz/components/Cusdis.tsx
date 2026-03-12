@@ -35,9 +35,14 @@ export default (() => {
         });
       }
 
+      function getTheme() {
+        return document.documentElement.getAttribute('saved-theme') || localStorage.getItem('theme') || 'light';
+      }
+
       function initCusdis() {
         var thread = document.getElementById('cusdis_thread');
         if (!thread) return;
+        thread.setAttribute('data-theme', getTheme());
         if (!thread.querySelector('iframe') && window.CUSDIS) {
           window.CUSDIS.renderTo(thread);
         }
@@ -64,6 +69,12 @@ export default (() => {
         script.onload = function() {
           initCusdis();
           document.addEventListener('nav', initCusdis);
+          document.addEventListener('themechange', function(e) {
+            var thread = document.getElementById('cusdis_thread');
+            if (!thread || !window.CUSDIS) return;
+            thread.setAttribute('data-theme', e.detail.theme);
+            window.CUSDIS.renderTo(thread);
+          });
         };
         document.body.appendChild(script);
       };
