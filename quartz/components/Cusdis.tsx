@@ -14,6 +14,7 @@ export default (() => {
         data-page-id={pageId}
         data-page-url={pageUrl}
         data-page-title={pageTitle}
+        data-lang="ko"
         dangerouslySetInnerHTML={{ __html: "" }}
       />
     )
