@@ -22,11 +22,17 @@ export default (() => {
 
   Cusdis.afterDOMLoaded = `
     (function() {
-      var script = document.createElement('script');
-      script.src = 'https://cusdis.com/js/cusdis.es.js';
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
+      var langScript = document.createElement('script');
+      langScript.src = 'https://cusdis-sigma-one.vercel.app/js/widget/lang/ko.js';
+      langScript.defer = true;
+      langScript.onload = function() {
+        var script = document.createElement('script');
+        script.src = 'https://cusdis.com/js/cusdis.es.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+      };
+      document.body.appendChild(langScript);
     })();
   `
 
