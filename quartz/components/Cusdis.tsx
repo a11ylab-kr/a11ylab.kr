@@ -27,7 +27,7 @@ export default (() => {
       langScript.defer = true;
       langScript.onload = function() {
         var script = document.createElement('script');
-        script.src = 'https://cusdis.com/js/cusdis.es.js';
+        script.src = 'https://cusdis-sigma-one.vercel.app/js/cusdis.es.js';
         script.async = true;
         script.defer = true;
         document.body.appendChild(script);
