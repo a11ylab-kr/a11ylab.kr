@@ -22,6 +22,18 @@ export default (() => {
 
   Cusdis.afterDOMLoaded = `
     (function() {
+      function setupIframeResize(iframe) {
+        iframe.addEventListener('load', function() {
+          try {
+            var body = iframe.contentDocument.body;
+            iframe.style.height = body.scrollHeight + 'px';
+            new ResizeObserver(function() {
+              iframe.style.height = body.scrollHeight + 'px';
+            }).observe(body);
+          } catch(e) {}
+        });
+      }
+
       var langScript = document.createElement('script');
       langScript.src = 'https://cusdis-sigma-one.vercel.app/js/widget/lang/ko.js';
       langScript.defer = true;
@@ -30,6 +42,20 @@ export default (() => {
         script.src = 'https://cusdis-sigma-one.vercel.app/js/cusdis.es.js';
         script.async = true;
         script.defer = true;
+        script.onload = function() {
+          var thread = document.getElementById('cusdis_thread');
+          if (!thread) return;
+          var existing = thread.querySelector('iframe');
+          if (existing) {
+            setupIframeResize(existing);
+          } else {
+            var mo = new MutationObserver(function() {
+              var iframe = thread.querySelector('iframe');
+              if (iframe) { mo.disconnect(); setupIframeResize(iframe); }
+            });
+            mo.observe(thread, { childList: true });
+          }
+        };
         document.body.appendChild(script);
       };
       document.body.appendChild(langScript);
