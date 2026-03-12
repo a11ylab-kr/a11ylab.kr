@@ -26,9 +26,10 @@ export default (() => {
         iframe.addEventListener('load', function() {
           try {
             var body = iframe.contentDocument.body;
-            iframe.style.height = body.scrollHeight + 'px';
+            var maxHeight = 600;
+            iframe.style.height = Math.min(body.scrollHeight, maxHeight) + 'px';
             new ResizeObserver(function() {
-              iframe.style.height = body.scrollHeight + 'px';
+              iframe.style.height = Math.min(body.scrollHeight, maxHeight) + 'px';
             }).observe(body);
           } catch(e) {}
         });
