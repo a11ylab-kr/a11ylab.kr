@@ -13,6 +13,7 @@ import { styleText } from "util"
 
 const defaultHeaderWeight = [700]
 const defaultBodyWeight = [400]
+const koreanSocialFont = "Noto Sans KR"
 
 export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: FontSpecification) {
   // Get all weights for header and body fonts
@@ -51,15 +52,35 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
     }
   })
 
-  const [headerFonts, bodyFonts] = await Promise.all([
+  const [headerFonts, bodyFonts, koreanSocialFonts] = await Promise.all([
     Promise.all(headerFontPromises),
     Promise.all(bodyFontPromises),
+    Promise.all([
+      fetchTtf(koreanSocialFont, 400),
+      fetchTtf(koreanSocialFont, 700),
+    ]),
   ])
 
-  // Filter out any failed fetches and combine header and body fonts
+  // Filter out any failed fetches and combine header, body, and Korean fallback fonts.
+  // Satori does not reliably use browser/OS font fallback when generating static OG images,
+  // so Korean glyphs must be provided explicitly.
+  const koreanFallbackFonts = koreanSocialFonts
+    .map((data, index) =>
+      data
+        ? {
+            name: koreanSocialFont,
+            data,
+            weight: (index === 0 ? 400 : 700) as FontWeight,
+            style: "normal" as const,
+          }
+        : null,
+    )
+    .filter((font): font is NonNullable<typeof font> => font !== null)
+
   const fonts: SatoriOptions["fonts"] = [
     ...headerFonts.filter((font): font is NonNullable<typeof font> => font !== null),
     ...bodyFonts.filter((font): font is NonNullable<typeof font> => font !== null),
+    ...koreanFallbackFonts,
   ]
 
   return fonts
@@ -197,6 +218,8 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
   const tags = fileData.frontmatter?.tags ?? []
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
+  const socialBodyFont = cfg.locale.toLowerCase().startsWith("ko") ? koreanSocialFont : bodyFont
+  const socialHeaderFont = cfg.locale.toLowerCase().startsWith("ko") ? koreanSocialFont : headerFont
 
   return (
     <div
@@ -207,7 +230,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         width: "100%",
         backgroundColor: cfg.theme.colors[colorScheme].light,
         padding: "2.5rem",
-        fontFamily: bodyFont,
+        fontFamily: socialBodyFont,
       }}
     >
       {/* Header Section */}
@@ -234,7 +257,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             display: "flex",
             fontSize: 32,
             color: cfg.theme.colors[colorScheme].gray,
-            fontFamily: bodyFont,
+            fontFamily: socialBodyFont,
           }}
         >
           {cfg.baseUrl}
@@ -253,7 +276,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           style={{
             margin: 0,
             fontSize: useSmallerFont ? 64 : 72,
-            fontFamily: headerFont,
+            fontFamily: socialHeaderFont,
             fontWeight: 700,
             color: cfg.theme.colors[colorScheme].dark,
             lineHeight: 1.2,
