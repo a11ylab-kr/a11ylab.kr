@@ -9,10 +9,10 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "이메일": "mailto:hi@a11ylab.kr",
+      "카카오톡 채널": "http://pf.kakao.com/_yxexaxbX",
       "X(Twitter)": "https://x.com/a11ylab_kr",
       "Facebook": "https://www.facebook.com/a11ylab.kr",
       "GitHub": "https://github.com/a11ylab-kr",
-      
     },
   }),
 }
