@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-03-03T14:10:07.273+09:00
-modified: 2026-03-08T19:17:11.711+09:00
+modified: 2026-06-04T14:59:36.979+09:00
 tags:
-  - 접근성
-  - 인공지능
+  - "#접근성"
+  - "#인공지능"
 ---
 
 ## 대답하는 AI에서 행동하는 AI로
@@ -53,4 +53,4 @@ tags:
 
 [^5]: _"Such an API would also be a boon for accessibility tools, enabling them to offer users higher-level actions to perform on a page."_ [GitHub - webmachinelearning/webmcp: 🤖 WebMCP](https://github.com/webmachinelearning/webmcp)
 
-[^6]: 사실 [[WebMCP]]도 Amazon 백엔드 엔지니어인 Alex Nahas가  [[MCP]]와 비슷한 기능을 [[웹 브라우저]]에서 구현하려고 개발한 MCP-B에서 유래했다. | [WebMCP: Making Every Website a Tool for AI Agents](https://www.arcade.dev/blog/web-mcp-alex-nahas-interview)
+[^6]: 사실 [[WebMCP]]도 Amazon 백엔드 엔지니어인 Alex Nahas가  [[2 Area/인공지능/MCP]]와 비슷한 기능을 [[웹 브라우저]]에서 구현하려고 개발한 MCP-B에서 유래했다. | [WebMCP: Making Every Website a Tool for AI Agents](https://www.arcade.dev/blog/web-mcp-alex-nahas-interview)
