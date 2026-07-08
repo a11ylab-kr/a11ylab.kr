@@ -2,10 +2,6 @@
 publish: true
 created: 2026-06-04T09:01:07.509+09:00
 modified: 2026-06-04T12:07:59.798+09:00
-tags:
-  - "#b8b8b8"
-  - "#faf8f8"
-  - "#b2b0b0"
 ---
 
 # a11ylab.kr axe 기반 접근성 baseline 리포트
