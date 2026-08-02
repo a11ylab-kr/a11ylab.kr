@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Macintosh
   - 맥
-created: 2021-03-06T08:34:26.245+09:00
-modified: 2026-07-08T14:26:20.405+09:00
+created: 2021-03-05T23:34:26.245Z
+modified: 2026-07-08T05:26:20.405Z
 ---
 
 # 개요

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - HyperText Markup Language
   - 하이퍼텍스트 마크업 언어
-created: 2021-04-10T05:34:33.926+09:00
-modified: 2026-07-08T14:21:26.658+09:00
+created: 2021-04-09T20:34:33.926Z
+modified: 2026-07-08T05:21:26.658Z
 ---
 
 # 개요

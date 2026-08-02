@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Edge
   - 엣지
-created: 2025-06-13T15:23:17.964+09:00
-modified: 2026-07-08T14:40:39.915+09:00
+created: 2025-06-13T06:23:17.964Z
+modified: 2026-07-08T05:40:39.915Z
 ---
 
 # 개요

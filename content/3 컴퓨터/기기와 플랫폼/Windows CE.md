@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 윈도우 CE
   - Windows Embedded Compact
-created: 2021-04-11T19:14:41.515+09:00
-modified: 2026-07-08T14:29:18.645+09:00
+created: 2021-04-11T10:14:41.515Z
+modified: 2026-07-08T05:29:18.645Z
 ---
 
 # 개요

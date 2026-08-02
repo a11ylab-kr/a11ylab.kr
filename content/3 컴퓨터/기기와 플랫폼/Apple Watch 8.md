@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Apple Watch Series 8
   - 애플 워치 8
-created: 2023-06-13T14:42:39.421+09:00
-modified: 2026-07-08T14:33:02.304+09:00
+created: 2023-06-13T05:42:39.421Z
+modified: 2026-07-08T05:33:02.304Z
 ---
 
 # 개요

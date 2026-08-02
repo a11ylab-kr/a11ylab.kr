@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Microsoft Windows
   - 윈도우
-created: 2021-04-07T14:46:38.149+09:00
-modified: 2026-07-08T14:33:02.304+09:00
+created: 2021-04-07T05:46:38.149Z
+modified: 2026-07-08T05:33:02.304Z
 ---
 
 # 개요

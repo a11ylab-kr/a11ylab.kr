@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Logic Pro
   - 로직 프로
-created: 2023-10-22T23:22:10.586+09:00
-modified: 2026-07-08T14:29:18.643+09:00
+created: 2023-10-22T14:22:10.586Z
+modified: 2026-07-08T05:29:18.643Z
 ---
 
 # 개요

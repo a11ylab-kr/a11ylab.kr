@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 구글 워크스페이스
   - G Suite
-created: 2025-03-30T19:12:21.949+09:00
-modified: 2026-07-08T14:40:39.915+09:00
+created: 2025-03-30T10:12:21.949Z
+modified: 2026-07-08T05:40:39.915Z
 ---
 
 # 개요

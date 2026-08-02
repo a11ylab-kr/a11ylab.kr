@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 페이스북
   - Meta Facebook
-created: 2021-04-07T17:56:26.484+09:00
-modified: 2026-07-08T14:26:20.404+09:00
+created: 2021-04-07T08:56:26.484Z
+modified: 2026-07-08T05:26:20.404Z
 ---
 
 # 개요

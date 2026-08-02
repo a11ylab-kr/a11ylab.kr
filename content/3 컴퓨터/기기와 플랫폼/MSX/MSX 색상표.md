@@ -3,8 +3,8 @@ publish: true
 aliases:
   - MSX 색상표
   - MSX color palette
-created: 2023-07-17T12:10:17.511+09:00
-modified: 2026-07-08T14:33:02.305+09:00
+created: 2023-07-17T03:10:17.511Z
+modified: 2026-07-08T05:33:02.305Z
 ---
 
 # 개요

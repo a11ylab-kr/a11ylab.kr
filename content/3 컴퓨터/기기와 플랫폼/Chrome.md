@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Google Chrome
   - 크롬
-created: 2023-04-17T13:10:48.569+09:00
-modified: 2026-07-08T14:26:20.405+09:00
+created: 2023-04-17T04:10:48.569Z
+modified: 2026-07-08T05:26:20.405Z
 ---
 
 # 개요

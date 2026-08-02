@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Free Lossless Audio Codec
-created: 2025-05-14T10:29:15.213+09:00
-modified: 2026-07-08T14:26:20.406+09:00
+created: 2025-05-14T01:29:15.213Z
+modified: 2026-07-08T05:26:20.406Z
 ---
 
 # 개요

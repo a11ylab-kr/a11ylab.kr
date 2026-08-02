@@ -3,8 +3,8 @@ publish: true
 aliases:
   - axe-core
   - axe DevTools
-created: 2026-06-04T13:13:06.681+09:00
-modified: 2026-06-04T14:14:43.387+09:00
+created: 2026-06-04T04:13:06.681Z
+modified: 2026-06-04T05:14:43.387Z
 ---
 
 # 개요

@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Python Package Index
-created: 2023-12-31T19:11:21.287+09:00
-modified: 2026-07-08T14:31:19.642+09:00
+created: 2023-12-31T10:11:21.287Z
+modified: 2026-07-08T05:31:19.642Z
 ---
 
 # 개요

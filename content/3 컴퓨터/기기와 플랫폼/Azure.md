@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Microsoft Azure
-created: 2025-02-02T05:11:05.937+09:00
-modified: 2026-07-08T14:23:38.439+09:00
+created: 2025-02-01T20:11:05.937Z
+modified: 2026-07-08T05:23:38.439Z
 ---
 
 # 개요

@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - wxPython
-created: 2023-10-01T07:50:10.298+09:00
-modified: 2026-07-08T14:31:19.642+09:00
+created: 2023-09-30T22:50:10.298Z
+modified: 2026-07-08T05:31:19.642Z
 ---
 
 # 개요

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - ChromeOS
   - 크롬 OS
-created: 2023-10-21T21:59:20.450+09:00
-modified: 2026-07-08T14:26:20.404+09:00
+created: 2023-10-21T12:59:20.450Z
+modified: 2026-07-08T05:26:20.404Z
 ---
 
 # 개요

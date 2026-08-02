@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Operations
   - 운영
-created: 2025-03-11T23:29:29.042+09:00
-modified: 2026-07-08T14:29:18.642+09:00
+created: 2025-03-11T14:29:29.042Z
+modified: 2026-07-08T05:29:18.642Z
 ---
 
 # 개요

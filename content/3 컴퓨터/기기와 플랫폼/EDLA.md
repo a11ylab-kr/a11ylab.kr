@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Enterprise Devices Licensing Agreement
-created: 2025-03-17T15:27:23.156+09:00
-modified: 2026-07-08T14:40:39.916+09:00
+created: 2025-03-17T06:27:23.156Z
+modified: 2026-07-08T05:40:39.916Z
 ---
 
 # 개요

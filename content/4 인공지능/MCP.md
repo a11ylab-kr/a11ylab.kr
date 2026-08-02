@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Model Context Protocol
   - 모델 컨텍스트 프로토콜
-created: 2026-06-04T14:21:17.186+09:00
-modified: 2026-06-04T14:21:17.189+09:00
+created: 2026-06-04T05:21:17.186Z
+modified: 2026-06-04T05:21:17.189Z
 ---
 
 # 개요

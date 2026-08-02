@@ -3,8 +3,8 @@ publish: true
 aliases:
   - pywin32
   - Python for Windows extensions
-created: 2025-04-03T20:32:49.316+09:00
-modified: 2026-07-08T14:40:39.917+09:00
+created: 2025-04-03T11:32:49.316Z
+modified: 2026-07-08T05:40:39.917Z
 ---
 
 # 개요

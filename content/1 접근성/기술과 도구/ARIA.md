@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Accessible Rich Internet Applications
   - WAI-ARIA
-created: 2026-06-04T13:13:34.154+09:00
-modified: 2026-06-04T13:13:34.165+09:00
+created: 2026-06-04T04:13:34.154Z
+modified: 2026-06-04T04:13:34.165Z
 ---
 
 # 개요

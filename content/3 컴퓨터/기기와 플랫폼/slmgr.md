@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Software Licensing Management Tool
-created: 2023-03-13T20:59:39.688+09:00
-modified: 2026-07-08T14:29:18.643+09:00
+created: 2023-03-13T11:59:39.688Z
+modified: 2026-07-08T05:29:18.643Z
 ---
 
 # 개요

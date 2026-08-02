@@ -3,8 +3,8 @@ publish: true
 aliases:
   - VS Code
   - vscode
-created: 2021-05-19T19:53:32.325+09:00
-modified: 2026-07-08T14:31:19.641+09:00
+created: 2021-05-19T10:53:32.325Z
+modified: 2026-07-08T05:31:19.641Z
 ---
 
 # 개요

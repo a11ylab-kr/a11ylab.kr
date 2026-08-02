@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Garbage In, Garbage Out
-created: 2025-12-06T23:48:01.632+09:00
-modified: 2026-07-08T14:29:18.644+09:00
+created: 2025-12-06T14:48:01.632Z
+modified: 2026-07-08T05:29:18.644Z
 ---
 
 # 개요

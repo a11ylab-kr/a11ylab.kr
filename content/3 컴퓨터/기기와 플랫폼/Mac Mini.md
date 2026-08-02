@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Mac mini
   - 맥 미니
-created: 2023-06-01T11:56:08.659+09:00
-modified: 2026-07-08T14:26:20.405+09:00
+created: 2023-06-01T02:56:08.659Z
+modified: 2026-07-08T05:26:20.405Z
 ---
 
 # 개요

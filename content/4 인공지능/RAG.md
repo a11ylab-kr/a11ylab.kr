@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - 검색 증강 생성
-created: 2025-03-20T09:57:33.106+09:00
-modified: 2026-05-05T16:02:04.877+09:00
+created: 2025-03-20T00:57:33.106Z
+modified: 2026-05-05T07:02:04.877Z
 ---
 
 Retrieval-Augmented Generation

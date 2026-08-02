@@ -3,8 +3,8 @@ publish: true
 aliases:
   - R language
   - 알
-created: 2023-10-05T09:53:47.219+09:00
-modified: 2026-07-08T14:31:19.641+09:00
+created: 2023-10-05T00:53:47.219Z
+modified: 2026-07-08T05:31:19.641Z
 ---
 
 # 개요

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Amazon Web Services
   - 아마존 웹 서비스
-created: 2025-02-02T05:10:28.776+09:00
-modified: 2026-07-08T14:40:39.917+09:00
+created: 2025-02-01T20:10:28.776Z
+modified: 2026-07-08T05:40:39.917Z
 ---
 
 # 개요

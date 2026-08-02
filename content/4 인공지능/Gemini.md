@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Google Gemini
   - 제미나이
-created: 2026-07-08T14:18:35.631+09:00
-modified: 2026-07-08T14:18:35.656+09:00
+created: 2026-07-08T05:18:35.631Z
+modified: 2026-07-08T05:18:35.656Z
 ---
 
 # 개요

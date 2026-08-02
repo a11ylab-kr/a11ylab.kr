@@ -3,8 +3,8 @@ publish: true
 aliases:
   - WoA
   - Windows ARM
-created: 2023-10-25T20:44:29.957+09:00
-modified: 2026-07-08T14:26:20.404+09:00
+created: 2023-10-25T11:44:29.957Z
+modified: 2026-07-08T05:26:20.404Z
 ---
 
 # 개요

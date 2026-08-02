@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Site Reliability Engineering
   - 사이트 신뢰성 엔지니어링
-created: 2023-05-28T22:02:44.132+09:00
-modified: 2026-07-08T14:23:38.439+09:00
+created: 2023-05-28T13:02:44.132Z
+modified: 2026-07-08T05:23:38.439Z
 ---
 
 # 개요

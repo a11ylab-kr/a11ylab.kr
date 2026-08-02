@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Microsoft Word
   - 워드
-created: 2021-05-01T00:50:29.410+09:00
-modified: 2026-07-08T14:29:18.642+09:00
+created: 2021-04-30T15:50:29.410Z
+modified: 2026-07-08T05:29:18.642Z
 ---
 
 # 개요

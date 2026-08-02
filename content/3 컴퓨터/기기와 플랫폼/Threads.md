@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 스레드
   - Meta Threads
-created: 2023-07-06T20:21:54.820+09:00
-modified: 2026-07-08T14:26:20.404+09:00
+created: 2023-07-06T11:21:54.820Z
+modified: 2026-07-08T05:26:20.404Z
 ---
 
 # 개요

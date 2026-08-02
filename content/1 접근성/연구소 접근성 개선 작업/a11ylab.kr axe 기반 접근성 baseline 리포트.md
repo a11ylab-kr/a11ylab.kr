@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-06-04T09:01:07.509+09:00
-modified: 2026-06-04T12:07:59.798+09:00
+created: 2026-06-04T00:01:07.509Z
+modified: 2026-06-04T03:07:59.798Z
 ---
 
 # a11ylab.kr axe 기반 접근성 baseline 리포트

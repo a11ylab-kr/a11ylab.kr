@@ -4,8 +4,8 @@ aliases:
   - Social Network Service
   - social media
   - 소셜 미디어
-created: 2021-04-08T23:22:52.516+09:00
-modified: 2026-07-08T14:23:38.438+09:00
+created: 2021-04-08T14:22:52.516Z
+modified: 2026-07-08T05:23:38.438Z
 ---
 
 # 개요

@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - Portable Document Format
-created: 2023-04-03T13:24:01.596+09:00
-modified: 2026-07-08T14:23:38.438+09:00
+created: 2023-04-03T04:24:01.596Z
+modified: 2026-07-08T05:23:38.438Z
 ---
 
 # 개요

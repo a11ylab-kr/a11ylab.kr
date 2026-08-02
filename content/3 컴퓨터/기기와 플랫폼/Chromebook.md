@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 크롬북
   - Chrome Book
-created: 2023-09-16T11:17:41.008+09:00
-modified: 2026-07-08T14:40:39.915+09:00
+created: 2023-09-16T02:17:41.008Z
+modified: 2026-07-08T05:40:39.915Z
 ---
 
 # 개요

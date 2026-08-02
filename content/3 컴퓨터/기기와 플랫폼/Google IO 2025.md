@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Google I/O 2025
   - 구글 IO 2025
-created: 2025-05-22T08:55:30.995+09:00
-modified: 2026-07-08T14:33:02.305+09:00
+created: 2025-05-21T23:55:30.995Z
+modified: 2026-07-08T05:33:02.305Z
 ---
 
 # 개요

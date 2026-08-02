@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - playwright
-created: 2026-06-04T14:20:47.431+09:00
-modified: 2026-06-04T14:59:37.001+09:00
+created: 2026-06-04T05:20:47.431Z
+modified: 2026-06-04T05:59:37.001Z
 ---
 
 # 개요

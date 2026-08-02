@@ -3,8 +3,8 @@ publish: true
 aliases:
   - M1 iPad
   - M1 아이패드
-created: 2021-04-21T22:04:55.833+09:00
-modified: 2026-07-08T14:38:24.955+09:00
+created: 2021-04-21T13:04:55.833Z
+modified: 2026-07-08T05:38:24.955Z
 ---
 
 # 개요

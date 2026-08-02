@@ -3,8 +3,8 @@ publish: true
 aliases:
   - PWA 설치
   - Progressive Web App 설치
-created: 2023-07-05T08:58:12.001+09:00
-modified: 2026-07-08T14:33:02.304+09:00
+created: 2023-07-04T23:58:12.001Z
+modified: 2026-07-08T05:33:02.304Z
 ---
 
 # 개요

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - 주피터 노트북
   - ipynb
-created: 2023-06-29T21:43:48.143+09:00
-modified: 2026-07-08T14:31:19.642+09:00
+created: 2023-06-29T12:43:48.143Z
+modified: 2026-07-08T05:31:19.642Z
 ---
 
 # 개요

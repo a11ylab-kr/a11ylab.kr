@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - 프리BSD
-created: 2023-05-15T11:19:24.040+09:00
-modified: 2026-07-08T14:29:18.644+09:00
+created: 2023-05-15T02:19:24.040Z
+modified: 2026-07-08T05:29:18.644Z
 ---
 
 # 개요
